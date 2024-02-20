@@ -1,0 +1,1 @@
+This folder contains examples of the FOV corrected images output by "Raw File Sorting.py". Note that due to camera specific lens distortion as well as a slight time desync between RGB and IR image captures (which compounds during camera motion), the output images do not exhibit a perfect 1:1 correlation between RGB and IR images in the pair.
