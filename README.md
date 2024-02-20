@@ -83,6 +83,9 @@ Download the GitHub source repository contents and navigate to the 'Image GPS Tr
 As long as the necessary packages and correct versions are installed, running the 'FLAME Image Labeling Tool.py' file
 in that Python environment should work. Please make sure the 'Output Folder' is empty.
 
+If using the tools and not making changes for open source purposes, remove all .gitkeep files. These can cause tools to 
+crash as the tools rely on handling folders and subfolders assuming only images/videos are in them.
+
 For detailed instructions on how to use the FLAME Image Labeling Tool, please refer to the 'Help' tab found within the
 tool itself. 
 
