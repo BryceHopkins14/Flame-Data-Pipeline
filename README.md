@@ -168,7 +168,7 @@ Please Note:
     - RGB wide angle images/videos must be named with a 'W'
         - Example: MyRGBImage_W.jpg or MyRGBVideo_W.mp4
     - Thermal images/videos must be names with a 'T'
-        - Example: MyThermalImage_W.jpg or MyThermalVideo_T.mp4
+        - Example: MyThermalImage_T.jpg or MyThermalVideo_T.mp4
 - Thermal Videos must be 512 pixels in height resolution for M2EA camera
 - FOR THE M2EA, DO NOT INPUT MORE RGB IMAGES THAN THERMALS.
 
