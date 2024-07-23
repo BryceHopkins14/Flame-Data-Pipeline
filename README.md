@@ -221,7 +221,7 @@ contents. The file structure for this folder is as follows:
 This output folder can now be used as input to the **FLAME Image Labeling Tool** included with this repository.
 
 A log.txt file will also be generated on output and be placed in the main tool folder. It contains information about
-the images that were paired together and what they were renamed to. Output will also be logged to the standard output screen.
+the images that were paired together and what they were renamed to. Output will also be logged to the standard output terminal.
 
 ![Raw File Sorting Output Text](READMEImages/RawFileSorting/rawfilesorting_output.PNG)
 
@@ -236,12 +236,12 @@ The input file structure should be the following:
         - RGB
         - Thermal
  
-Please make sure the variable below is specified properly according to your input image file structure.
+Please make sure the variable below is specified properly in the code according to your input image file structure.
 
 SOURCE_DIR = './Images/RGB/'
 
 #### Output 
-After running the file, the program will output a file named 'GPS_Traces.csv' containing the following information
+After running the file, the program will provide output text to the standard out terminal and output a file named 'GPS_Traces.csv' containing the following information
 for each image:
 
 - Datetime
@@ -250,6 +250,9 @@ for each image:
 - Altitude [m ASL]
 - Image Filename
 - Path to Image
+
+![GPS Tracing Terminal Output](READMEImages/ImageGPSTracing/gps_output.PNG)
+![GPS Tracing CSV Output](READMEImages/ImageGPSTracing/gps_output_2.PNG)
 
 ## Additional Contents
 ### FLAME Image Labeling Tool
