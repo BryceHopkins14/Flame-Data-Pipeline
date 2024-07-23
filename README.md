@@ -95,6 +95,7 @@ tool itself.
 Upon opening the tool, the user will be prompted to select the input image folder. Please use the Raw File Sorting Tool
 first to receive the proper output file structure that should be input into this tool. The full output file structure is 
 listed in the 'Raw File Sorting Tool' section of 'Usage'. 
+
 The input folder for this tool should be as follows:
 - Input Folder
     - Images
@@ -105,10 +106,15 @@ The input folder for this tool should be as follows:
             - Celsius TIFF
             - JPG
 
+![FLAME Image Labeling Input](READMEImages/Labeling/FLAMELABELING_input.PNG)
+
 The tool will load the RGB / IR image pairs and the main application window will open. 
 
 The user can manually scroll through each image pair with the 'Left' and 'Right' arrow keys.
 To go to a specific index image pair, use the 'Go To' button an input an integer index. 
+![Go To Image 1](READMEImages/Labeling/goto_3.PNG)
+![Go To Image 2](READMEImages/Labeling/goto_1.PNG)
+![Go To Image 3](READMEImages/Labeling/goto_2.PNG)
 
 The user can label each image pair with the following scheme:
 - '1' = Fire
