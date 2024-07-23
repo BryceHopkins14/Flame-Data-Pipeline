@@ -7,6 +7,8 @@ The FLAME Image Labeling Tool, when input with the output folder structure from 
 will allow the user to efficiently manually label RGB/IR image pairs or label via TIFF thresholding, and will
 output a file structure based on the labels.
 
+![FLAME Image Labeling Tool](READMEImage/Labeling/FlameLabelingTool_FrontPage.PNG)
+
 ### Raw File Sorting Tool
 The Raw File Sorting tool, when input with raw M30T or M2EA image pairs and videos, will
 pair the video, pair the thermal images to the wide angle images if available, regenerate the thermal images with a color
