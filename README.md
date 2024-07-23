@@ -121,15 +121,25 @@ The user can label each image pair with the following scheme:
 - '2' = No Fire
 - '3' = Unlabeled/Unknown
 
+![Fire Label](READMEImages/Labeling/FLAMELABELING_firelabel.PNG)
+![No Fire Label](READMEImages/Labeling/FLAMELABELING_nofirelabel.PNG)
+![Unknown Label](READMEImages/Labeling/FLAMELABELING_unknownlabel.PNG)
+
 The user can apply a specific class category to every image pair by selecting from the dropdown at the top of the application and 
 clicking 'Apply to All'.
 
-The user can also apply labeling via temperature thresholding using the Thermal TIFF files, by clicking the 'Temperature Based Labeling' 
-button and inputing a temperature to threshold at. 
+![Apply to All](READMEImages/Labeling/applytoall.PNG)
+
+The user can also apply labeling via temperature thresholding using the Thermal TIFF files, by clicking the 'Temperature Based Labeling' button and inputting a temperature to threshold at. 
+
+![Temperature Based Labeling Button](READMEImages/Labeling/temp_labeling.PNG)
+![Thresholding Popup](READMEImages/Labeling/thresh_1.PNG)
+![Thresholding Message](READMEImages/Labeling/thresh_2.PNG)
 
 The user can save the current state of the application by clicking the 'Save State' button. 
-The user can reload the current state of the application by clicking the 'Load State' button, provided the save_state.txt file is 
-still located in the current directory and the input folder has not changed. 
+The user can reload the current state of the application by clicking the 'Load State' button, provided the save_state.txt file is still located in the current directory and the input folder has not changed. 
+
+![Save State Button](READMEImages/Labeling/state.PNG)
   
 #### Output
 After labeling all RGB/IR image pairs within the tool, click the 'Export Images w/ Labels' button and you will be prompted 
@@ -137,9 +147,13 @@ to either:
 -Rename all files: This will rename all files according to an ascending numbering scheme and copy to the output folders
 -Preserve input filenames: This will copy the files with their original names to the proper output folders
 
-After running the FLAME Image Labeling Tool, a message box will appear to show the total of 'Fire', 'No Fire', and 'Unlabeled'
-image pair counts. After selecting 'OK', there should be a folder named 'Output Folder' containing the sorted output
-contents. The file structure for this folder is as follows:
+![Export Images Popup](READMEImages/Labeling/export_2.PNG)
+
+After running the FLAME Image Labeling Tool, a message box will appear to show the total of 'Fire', 'No Fire', and 'Unlabeled' image pair counts. After selecting 'OK', there should be a folder named 'Output Folder' containing the sorted output contents. 
+
+![Export Message](READMEImages/Labeling/export_yes.PNG)
+
+The file structure for this folder is as follows:
 - Output Folder
     -Fire 
         - RGB
@@ -156,6 +170,10 @@ contents. The file structure for this folder is as follows:
         - Celsius TIFF
             - JPG
 
+For more information on how to use the FLAME Labeling Tool, click the help button in the top left hand corner. 
+
+![Help Button](READMEImages/Labeling/help_1.PNG)
+![Help Popup](READMEImages/Labeling/help_2.PNG)
 
 ### Raw File Sorting Tool
 As long as the necessary packages and correct versions are installed, running the 'Raw File Sorting.py' file
