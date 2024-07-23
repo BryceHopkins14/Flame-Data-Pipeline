@@ -181,6 +181,8 @@ in that Python environment should work. Please make sure the 'Output Folder' is 
 into 'Input Folder/[MyFolderName]', where MyFolderName can be any folder name as long as it contains the images/videos
 you would like to sort.
 
+![Raw File Sorting Input Path](READMEImages/RawFileSorting/FileStructureInput.PNG)
+
 #### Input
 Place input images/videos into 'Input Folder/[MyFolderName]', where MyFolderName can be any folder or subfolders name
 as long as there are the images/videos you would like to sort.
@@ -198,6 +200,7 @@ Please Note:
 - Thermal Videos must be 512 pixels in height resolution for M2EA camera
 - FOR THE M2EA, DO NOT INPUT MORE RGB IMAGES THAN THERMALS.
 
+![Raw File Sorting Input Naming](READMEImages/RawFileSorting/ExampleInputImages.PNG)
 
 #### Output
 After running the Raw File Sorting Tool, there should be a folder named 'Output Folder' containing the sorted output
@@ -218,7 +221,9 @@ contents. The file structure for this folder is as follows:
 This output folder can now be used as input to the **FLAME Image Labeling Tool** included with this repository.
 
 A log.txt file will also be generated on output and be placed in the main tool folder. It contains information about
-the images that were paired together and what they were renamed to.
+the images that were paired together and what they were renamed to. Output will also be logged to the standard output screen.
+
+![Raw File Sorting Output Text](READMEImages/RawFileSorting/rawfilesorting_output.PNG)
 
 ### Image GPS Tracing Tool 
 As long as the necessary packages and correct versions are installed, running the 'Image_GPS_Tracing.ipynb' file
