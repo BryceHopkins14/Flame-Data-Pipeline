@@ -114,46 +114,80 @@ The tool will load the RGB / IR image pairs and the main application window will
 
 The user can manually scroll through each image pair with the 'Left' and 'Right' arrow keys.
 To go to a specific index image pair, use the 'Go To' button an input an integer index. 
-![Go To Image 1](READMEImages/Labeling/goto_3.PNG)
-![Go To Image 2](READMEImages/Labeling/goto_1.PNG)
-![Go To Image 3](READMEImages/Labeling/goto_2.PNG)
+<p align="center">
+  <img src="READMEImages/Labeling/goto_3.PNG" alt="Go To Image 1" />
+</p>
+
+<p align="center">
+  <img src="READMEImages/Labeling/goto_1.PNG" alt="Go To Image 2" />
+</p>
+
+<p align="center">
+  <img src="READMEImages/Labeling/goto_2.PNG" alt="Go To Image 3" />
+</p>
+
 
 The user can label each image pair with the following scheme:
 - '1' = Fire
 - '2' = No Fire
 - '3' = Unlabeled/Unknown
 
-![Fire Label](READMEImages/Labeling/FLAMELABELING_firelabel.PNG)
-![No Fire Label](READMEImages/Labeling/FLAMELABELING_nofirelabel.PNG)
-![Unknown Label](READMEImages/Labeling/FLAMELABELING_unknownlabel.PNG)
+<p align="center">
+  <img src="READMEImages/Labeling/FLAMELABELING_firelabel.PNG" alt="Fire Label" />
+</p>
+
+<p align="center">
+  <img src="READMEImages/Labeling/FLAMELABELING_nofirelabel.PNG" alt="No Fire Label" />
+</p>
+
+<p align="center">
+  <img src="READMEImages/Labeling/FLAMELABELING_unknownlabel.PNG" alt="Unknown Label" />
+</p>
 
 The user can apply a specific class category to every image pair by selecting from the dropdown at the top of the application and 
 clicking 'Apply to All'.
 
-![Apply to All](READMEImages/Labeling/applytoall.PNG)
+<p align="center">
+  <img src="READMEImages/Labeling/applytoall.PNG" alt="Apply to All" />
+</p>
+
 
 The user can also apply labeling via temperature thresholding using the Thermal TIFF files, by clicking the 'Temperature Based Labeling' button and inputting a temperature to threshold at. 
 
-![Temperature Based Labeling Button](READMEImages/Labeling/temp_labeling.PNG)
-![Thresholding Popup](READMEImages/Labeling/thresh_1.PNG)
-![Thresholding Message](READMEImages/Labeling/thresh_2.PNG)
+<p align="center">
+  <img src="READMEImages/Labeling/temp_labeling.PNG" alt="Temperature Based Labeling Button" />
+</p>
+<p align="center">
+  <img src="READMEImages/Labeling/thresh_1.PNG" alt="Thresholding Popup" />
+</p>
+<p align="center">
+  <img src="READMEImages/Labeling/thresh_2.PNG" alt="Thresholding Message" />
+</p>
 
 The user can save the current state of the application by clicking the 'Save State' button. 
 The user can reload the current state of the application by clicking the 'Load State' button, provided the save_state.txt file is still located in the current directory and the input folder has not changed. 
 
-![Save State Button](READMEImages/Labeling/state.PNG)
-  
+<p align="center">
+  <img src="READMEImages/Labeling/state.PNG" alt="Save State Button" />
+</p>
+
 #### Output
 After labeling all RGB/IR image pairs within the tool, click the 'Export Images w/ Labels' button and you will be prompted 
 to either:
 -Rename all files: This will rename all files according to an ascending numbering scheme and copy to the output folders
 -Preserve input filenames: This will copy the files with their original names to the proper output folders
 
-![Export Images Popup](READMEImages/Labeling/export_2.PNG)
+<p align="center">
+  <img src="READMEImages/Labeling/export_2.PNG" alt="Export Images Popup" />
+</p>
+
 
 After running the FLAME Image Labeling Tool, a message box will appear to show the total of 'Fire', 'No Fire', and 'Unlabeled' image pair counts. After selecting 'OK', there should be a folder named 'Output Folder' containing the sorted output contents. 
 
-![Export Message](READMEImages/Labeling/export_yes.PNG)
+<p align="center">
+  <img src="READMEImages/Labeling/export_yes.PNG" alt="Export Message" />
+</p>
+
 
 The file structure for this folder is as follows:
 - Output Folder
@@ -174,8 +208,13 @@ The file structure for this folder is as follows:
 
 For more information on how to use the FLAME Labeling Tool, click the help button in the top left hand corner. 
 
-![Help Button](READMEImages/Labeling/help_1.PNG)
-![Help Popup](READMEImages/Labeling/help_2.PNG)
+<p align="center">
+  <img src="READMEImages/Labeling/help_1.PNG" alt="Help Button" />
+</p>
+
+<p align="center">
+  <img src="READMEImages/Labeling/help_2.PNG" alt="Help Popup" />
+</p>
 
 ### Raw File Sorting Tool
 As long as the necessary packages and correct versions are installed, running the 'Raw File Sorting.py' file
@@ -183,7 +222,10 @@ in that Python environment should work. Please make sure the 'Output Folder' is 
 into 'Input Folder/[MyFolderName]', where MyFolderName can be any folder name as long as it contains the images/videos
 you would like to sort.
 
-![Raw File Sorting Input Path](READMEImages/RawFileSorting/FileStructureInput.PNG)
+<p align="center">
+  <img src="READMEImages/RawFileSorting/FileStructureInput.PNG" alt="Raw File Sorting Input Path" />
+</p>
+
 
 #### Input
 Place input images/videos into 'Input Folder/[MyFolderName]', where MyFolderName can be any folder or subfolders name
@@ -202,7 +244,9 @@ Please Note:
 - Thermal Videos must be 512 pixels in height resolution for M2EA camera
 - FOR THE M2EA, DO NOT INPUT MORE RGB IMAGES THAN THERMALS.
 
-![Raw File Sorting Input Naming](READMEImages/RawFileSorting/ExampleInputImages.PNG)
+<p align="center">
+  <img src="READMEImages/RawFileSorting/ExampleInputImages.PNG" alt="Raw File Sorting Input Naming" />
+</p>
 
 #### Output
 After running the Raw File Sorting Tool, there should be a folder named 'Output Folder' containing the sorted output
@@ -225,7 +269,10 @@ This output folder can now be used as input to the **FLAME Image Labeling Tool**
 A log.txt file will also be generated on output and be placed in the main tool folder. It contains information about
 the images that were paired together and what they were renamed to. Output will also be logged to the standard output terminal.
 
-![Raw File Sorting Output Text](READMEImages/RawFileSorting/rawfilesorting_output.PNG)
+<p align="center">
+  <img src="READMEImages/RawFileSorting/rawfilesorting_output.PNG" alt="Raw File Sorting Output Text" />
+</p>
+
 
 ### Image GPS Tracing Tool 
 As long as the necessary packages and correct versions are installed, running the 'Image_GPS_Tracing.ipynb' file
@@ -253,8 +300,13 @@ for each image:
 - Image Filename
 - Path to Image
 
-![GPS Tracing Terminal Output](READMEImages/ImageGPSTracing/gps_output.PNG)
-![GPS Tracing CSV Output](READMEImages/ImageGPSTracing/gps_output_2.PNG)
+<p align="center">
+  <img src="READMEImages/ImageGPSTracing/gps_output.PNG" alt="GPS Tracing Terminal Output" />
+</p>
+
+<p align="center">
+  <img src="READMEImages/ImageGPSTracing/gps_output_2.PNG" alt="GPS Tracing CSV Output" />
+</p>
 
 ## Additional Contents
 ### FLAME Image Labeling Tool
