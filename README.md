@@ -106,7 +106,9 @@ The input folder for this tool should be as follows:
             - Celsius TIFF
             - JPG
 
-![FLAME Image Labeling Input](READMEImages/Labeling/FLAMELABELING_input.PNG)
+<p align="center">
+<img src="READMEImages/Labeling/FLAMELABELING_input.PNG" alt="FLAME Image Labeling Input" />
+</p>
 
 The tool will load the RGB / IR image pairs and the main application window will open. 
 
