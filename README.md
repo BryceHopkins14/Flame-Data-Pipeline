@@ -322,7 +322,7 @@ No additional content.
 No known bugs
 
 ### Raw File Sorting Tool
-This program has a known memory leak. As a result, it is not recommended to process >3000 image pairs at a time.
+This program has a known memory leak caused by improper garbage collection of a certain function from the seaborn python module. As a result, it is not recommended to process >3000 image pairs at a time.
 Largest working batch: 3000 image pairs - 40,000 MiB peak RAM usage (as reported by task manager) - 2 hour runtime
 
 ### Image GPS Tracing Tool 
